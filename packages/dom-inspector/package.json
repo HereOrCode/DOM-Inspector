@@ -1,0 +1,44 @@
+{
+  "name": "@hereorcode/dom-inspector",
+  "version": "0.1.0",
+  "description": "A lightweight DOM inspector that returns selector, XPath, and JS path for clicked elements.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "dom",
+    "inspector",
+    "selector",
+    "xpath"
+  ],
+  "homepage": "https://github.com/HereOrCode/DOM-Inspector#readme",
+  "bugs": {
+    "url": "https://github.com/HereOrCode/DOM-Inspector/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HereOrCode/DOM-Inspector.git",
+    "directory": "packages/dom-inspector"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean --sourcemap",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  }
+}

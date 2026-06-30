@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@hereorcode/dom-inspector": ["../../packages/dom-inspector/src/index.ts"]
+    }
+  },
+  "include": ["src", "vite.config.ts"]
+}
