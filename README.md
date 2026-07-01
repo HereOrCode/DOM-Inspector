@@ -13,6 +13,26 @@ pseudo-element information.
 - `packages/dom-inspector`: TypeScript library.
 - `apps/web`: Vite + React + TypeScript demo page.
 
+## Package Installation
+
+After the package is published to npm, install it with your package manager:
+
+```bash
+npm install @hereorcode/dom-inspector
+```
+
+```bash
+pnpm add @hereorcode/dom-inspector
+```
+
+```bash
+yarn add @hereorcode/dom-inspector
+```
+
+```bash
+bun add @hereorcode/dom-inspector
+```
+
 ## Local Setup
 
 This package has not been published to npm yet. Use the workspace package while

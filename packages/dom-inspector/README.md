@@ -8,6 +8,26 @@ path information for clicked elements.
 This package has not been published to npm yet. Use it from this pnpm workspace
 or build/link it locally while developing.
 
+## Installation
+
+After the package is published to npm, install it with your package manager:
+
+```bash
+npm install @hereorcode/dom-inspector
+```
+
+```bash
+pnpm add @hereorcode/dom-inspector
+```
+
+```bash
+yarn add @hereorcode/dom-inspector
+```
+
+```bash
+bun add @hereorcode/dom-inspector
+```
+
 ## Usage
 
 ```ts
